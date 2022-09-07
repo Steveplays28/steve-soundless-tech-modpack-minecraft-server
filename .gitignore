@@ -1,0 +1,35 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Minecraft
+eula.txt
+usercache.json
+versions/
+mods/
+world/
+logs/
+libraries/
+journeymap/
+defaultconfigs/
+config/
+bluemap/
+
+# Quilt
+quilt_loader.log
+quilt-server-launcher.properties
+.quilt/
+server.jar
+
+# Packwiz
+packwiz.json
+packwiz-installer.jar
