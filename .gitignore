@@ -14,6 +14,8 @@
 # Minecraft
 eula.txt
 server.properties
+ops.json
+whitelist.json
 usercache.json
 versions/
 mods/
