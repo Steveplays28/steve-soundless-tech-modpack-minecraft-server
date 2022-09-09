@@ -1,6 +1,6 @@
 @echo off
 
-title "steve-soundless-tech-modpack-minecraft - 1.18.2 Quilt Minecraft server"
+title steve-soundless-tech-modpack-minecraft - 1.18.2 Quilt Minecraft server
 
 start start-packwiz-server.bat
 

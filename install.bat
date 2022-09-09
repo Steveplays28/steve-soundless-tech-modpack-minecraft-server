@@ -1,6 +1,6 @@
 @echo off
 
-title "steve-soundless-tech-modpack-minecraft - 1.18.2 Quilt Minecraft server installer"
+title steve-soundless-tech-modpack-minecraft - 1.18.2 Quilt Minecraft server installer
 
 java -jar quilt-installer-0.4.4.jar install server 1.18.2 --download-server
 
