@@ -16,6 +16,8 @@ eula.txt
 server.properties
 ops.json
 whitelist.json
+banned-ips.json
+banned-players.json
 usercache.json
 versions/
 mods/
