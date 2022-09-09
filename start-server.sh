@@ -9,6 +9,6 @@ nohup ./start-packwiz-server.bash &
 
 # Start Minecraft server
 java -jar packwiz-installer-bootstrap.jar -g -s server http://lineofflat.duckdns.org:24465/pack.toml
-java -jar -Xms6144m -Xmx6144m -XX:ParallelGCThreads=4 -XX:+UseCodeCacheFlushing -XX:+UseStringDeduplication quilt-server-launch.jar nogui
+java -jar -Xms6144m -Xmx6144m -XX:ParallelGCThreads=4 -XX:+UseCodeCacheFlushing -XX:+UseStringDeduplication ./server/quilt-server-launch.jar nogui
 
 read -p "Server stopped."
