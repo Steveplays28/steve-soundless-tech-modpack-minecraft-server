@@ -39,6 +39,7 @@ moddata/
 journeymap/
 patchouli_books/
 bluemap/
+backup/
 
 # Packwiz
 packwiz.json
