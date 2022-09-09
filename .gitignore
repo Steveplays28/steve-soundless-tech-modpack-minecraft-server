@@ -20,20 +20,25 @@ banned-ips.json
 banned-players.json
 usercache.json
 versions/
-mods/
 world/
 logs/
 libraries/
-journeymap/
-defaultconfigs/
-config/
-bluemap/
 
 # Quilt
-quilt_loader.log
+quilt-server-launch.jar
 quilt-server-launcher.properties
+quilt_loader.log
 .quilt/
 server.jar
+
+# Mods
+mods/
+defaultconfigs/
+config/
+moddata/
+journeymap/
+patchouli_books/
+bluemap/
 
 # Packwiz
 packwiz.json
