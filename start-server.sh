@@ -7,11 +7,10 @@ echo -e '\033]2;'$title'\007'
 # Start Packwiz server in new window
 nohup ./start-packwiz-server.bash &
 
-# Start Packwiz client
-java -jar packwiz-installer-bootstrap.jar -g -s server http://lineofflat.duckdns.org:24465/pack.toml
-
-# Start Minecraft server
+# Start Packwiz client and Minecraft server
 cd server/
+java -jar packwiz-installer-bootstrap.jar -g -s server http://lineofflat.duckdns.org:24465/pack.toml
 java -jar -Xms6144m -Xmx6144m -XX:ParallelGCThreads=4 -XX:+UseCodeCacheFlushing -XX:+UseStringDeduplication quilt-server-launch.jar nogui
 
+echo
 read -p "Server stopped."

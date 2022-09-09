@@ -1,5 +1,8 @@
+@echo off
 title steve-soundless-tech-modpack-minecraft - Packwiz server
 
-D:
-cd "D:\Repos\steve-soundless-tech-modpack-minecraft"
+cd ../steve-soundless-tech-modpack-minecraft
 packwiz serve -p=24465
+
+echo Packwiz server stopped.
+pause
