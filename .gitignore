@@ -41,6 +41,7 @@ journeymap/
 patchouli_books/
 bluemap/
 backup/
+DiscordIntegration-Data/
 
 # Packwiz
 packwiz.json
