@@ -23,6 +23,7 @@ versions/
 world/
 logs/
 libraries/
+crash-reports/
 
 # Quilt
 quilt-server-launch.jar
