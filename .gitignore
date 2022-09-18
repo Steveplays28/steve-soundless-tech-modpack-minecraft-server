@@ -42,6 +42,7 @@ patchouli_books/
 bluemap/
 backup/
 DiscordIntegration-Data/
+banhammer-sqlite.db
 
 # Packwiz
 packwiz.json
