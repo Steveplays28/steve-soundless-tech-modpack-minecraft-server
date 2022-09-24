@@ -43,6 +43,7 @@ bluemap/
 backup/
 DiscordIntegration-Data/
 banhammer-sqlite.db
+ipcache.json
 
 # Packwiz
 packwiz.json
